@@ -1,4 +1,4 @@
-FROM python:3.11.1-slim@sha256:8f3997244336ad0f067ad693f85906263a21a7f571b6577a64134aba889bc95e
+FROM python:3.11.1-slim@sha256:8d6e5ee51e1aedd4050c49bc27f0cf59f6cf21d39c3e6977983ae09aab21fbb7
 
 MAINTAINER mail@sp-codes.de
 
