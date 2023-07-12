@@ -5,5 +5,15 @@
   "baseBranches": [
     "main"
   ],
-  "rangeStrategy": "bump"
+  "rangeStrategy": "bump",
+  "rebaseWhen": "behind-base-branch",
+  "automergeType": "branch",
+  "packageRules": [
+    {
+      "datasources": [
+        "docker"
+      ],
+      "automerge": true
+    }
+  ]
 }
