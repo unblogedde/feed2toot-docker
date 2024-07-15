@@ -57,7 +57,7 @@ docker run -d -v /your/path/feed2toot:/feed2toot samuelph/feed2toot
 Optionally you can adjust the cron job to fit your needs by editing the `cron` file. Per default the cron job runs every minute.
 
 To run the image with Docker Compose you can just use this:
-
+XX
 ```yaml
 services:
   feed2toot:
